@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Wembley Sports</title>
+
+        <style>
+        body{
+            background-color: grey;
+            margin-left: 90px;
+            margin-right: 90px;
+                    }
+
+        ul{
+            list-style: none;
+                    }
+       nav li{
+            display: inline;
+            position: absolute;
+        }
+        #Home{
+            margin-top: -14px;
+            margin-left: auto;
+        }
+        #Services{
+            margin-top: -22px;
+            margin-left: 18.5%;
+        }
+        #accesories{
+            margin-top: -16px;
+            margin-left: 33%;
+        }
+        #Contact{
+            margin-top: -27px;
+            margin-left: 48.5%;
+        }
+        #Aboutus{
+            margin-top: -29px;
+            margin-left: 64%;
+        }
+        .slider{
+            margin-top: 6%;
+            margin-left:3%;
+        }
+        .sliderpara{
+            margin-left: 3%;
+            margin-top: 1%;
+            color: white;
+            font-size: 24px;
+            font-family: arial;
+        }
+    .indoorimage li{
+        display: inline;
+        margin-left: 8%;
+    }
+        .outdoorimage li{
+            display: inline;
+            margin-left: 8%;
+        }
+    .topbrands{
+        background-color: white;
+        font-size: 40px;
+        font-family: arial, impact;
+        text-align: center;
+    }
+
+         .topbrands p img{
+                margin: 2%;}
+        .topbrands p {
+            position: absolute;
+            top: 1235px;
+            left: 108px;
+        }
+        img.picture {
+            margin: 4px;
+            position: relative;
+            left: -152px;
+        }
+        img.picture1 {
+            margin-right: -21px;
+            position: absolute;
+            right: 595px;
+            top: 1272px;
+        }
+        img.picture2 {
+            /* margin-right: -257px; */
+            position: absolute;
+            right: 440px;
+            top: 1263px;
+        }
+        img.picture3 {
+            /* margin-left: 439px; */
+            position: absolute;
+            right: 276px;
+            top: 1263px;
+        }
+        img.picture4 {
+            position: absolute;
+            right: 105px;
+            top: 1272px;
+        }
+        footer{
+            background-color: white;
+        }
+
+
+        .footerli li{
+            display: inline;
+            list-style: none;
+        }
+
+           .footerweblink
+           {
+
+                float: right;
+
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img src="images/Logo.png" id="Logo">
+
+</header>
+<nav>
+<ul class="nav">
+    <li id="Home"><a href="Home.html"><img src="images/Home.png"></a></li>
+    <li id="Services"><a href="Services.html"> <img src="images/Services.png"></a></li>
+    <li id="accesories"><a href="ACCESOORIES.html"> <img src="images/ACCESSORIES.png"></a></li>
+    <li id="Contact"><a href="Contact.html"> <img src="images/Contact.png"></a></li>
+    <li id="Aboutus"><a href="About%20Us.html"> <img src="images/ABout%20Us.png"></a></li>
+
+</ul>
+</nav>
+<div class="slider">
+    <img src="images/slider.png">
+</div>
+<div class="sliderpara">
+    <p>At the heart of sports history for almost a century, no other company has been as influential and intimately
+    involved in shaping the games ot Tennis, Golf, Baseball, And American Football as Wembley Sports.
+    As the originator of breakthrough
+    technologies, Wembley Sports has produced legendary classics and earned world-wide legitimacy in each sport it participates
+    in. Backed by generations of Athletes, Wembley Sports is the true Pakistani icon in the world
+    of sports equipment</p>
+</div>
+<div class="indoor"><a href="Services.html"> <img src="images/Indoor_Sports.png"></a></div>
+<ul class="indoorimage">
+    <li> <img src="images/Table_tennis.png"></li>
+    <li> <img src="images/CHess.png"></li>
+    <li> <img src="images/Barn.png"></li>
+    <li> <img src="images/UNO.png"></li>
+</ul>
+<div class="outdoor"><a href="Services.html"><img src="images/Outdoor_Sports.png"></a></div>
+<ul class="outdoorimage">
+    <li> <img src="images/BasketBall.png"></li>
+    <li> <img src="images/Cricket.png"></li>
+    <li> <img src="images/Hockey.png"></li>
+    <li> <img src="images/Soccer.png"></li>
+</ul>
+<div class="topbrands">
+    <p>TOP BRANDS:</p>
+    <img src="images/Slazenger.png" class="picture">
+    <img src="images/Nike.png" class="picture1">
+    <img src="images/Undr_Armour.png" class="picture2">
+    <img src="images/Adidas.png" class="picture3">
+    <img src="images/TNF.png" class="picture4">
+</div>
+<footer>
+    <div class="footer">
+        <ul class="footerli">
+        <li><a href="https://www.facebook.com/spsolutionplus"><img src="images/Fb.png"></a></li>
+        <li><a href="https://www.facebook.com/spsolutionplus"><img src="images/Twitter.png"></a></li>
+        <li><a href="https://www.facebook.com/spsolutionplus"><img src="images/Youtube.png"></a></li>
+        <li><a href="https://plus.google.com/u/0/"><img src="images/Google+.png"></a></li>
+        <li class="footerweblink"><a href="http://www.spsolutionplus.com/">Solution Plus</a></li>
+        </ul>
+
+    </div>
+</footer>
+</body>
+</html>
